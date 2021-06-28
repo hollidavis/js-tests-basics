@@ -7,53 +7,53 @@
 // output: 7
 
 function daysPosition(day, offset) {
-    switch (day, offset) {
-        case 'Monday':
+    switch (day) {
+        case 'monday':
             if (offset == true) {
                 return 1
-            } else if (offset == false) {
+            } else {
                 return 2
             }
             break;
-        case 'Tuesday':
+        case 'tuesday':
             if (offset == true) {
                 return 2
-            } else if (offset == false) {
+            } else {
                 return 3
             }
             break;
-        case 'Wednesday':
+        case 'wednesday':
             if (offset == true) {
                 return 3
-            } else if (offset == false) {
+            } else {
                 return 4
             }
             break;
-        case 'Thursday':
+        case 'thursday':
             if (offset == true) {
                 return 4
-            } else if (offset == false) {
+            } else {
                 return 5
             }
             break;
-        case 'Friday':
+        case 'friday':
             if (offset == true) {
                 return 5
-            } else if (offset == false) {
+            } else {
                 return 6
             }
             break;
-        case 'Saturday':
+        case 'saturday':
             if (offset == true) {
                 return 6
-            } else if (offset == false) {
+            } else {
                 return 7
             }
             break;
-        case 'Sunday':
+        case 'sunday':
             if (offset == true) {
                 return 7
-            } else if (offset == false) {
+            } else {
                 return 1
             }
             break;
