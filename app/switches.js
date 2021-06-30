@@ -7,7 +7,7 @@
 // output: 7
 
 function daysPosition(day, offset) {
-    switch (day) {
+    switch (day.toLowerCase()) {
         case 'monday':
             if (offset == true) {
                 return 1
