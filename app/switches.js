@@ -14,49 +14,42 @@ function daysPosition(day, offset) {
             } else {
                 return 2
             }
-            break;
         case 'tuesday':
             if (offset == true) {
                 return 2
             } else {
                 return 3
             }
-            break;
         case 'wednesday':
             if (offset == true) {
                 return 3
             } else {
                 return 4
             }
-            break;
         case 'thursday':
             if (offset == true) {
                 return 4
             } else {
                 return 5
             }
-            break;
         case 'friday':
             if (offset == true) {
                 return 5
             } else {
                 return 6
             }
-            break;
         case 'saturday':
             if (offset == true) {
                 return 6
             } else {
                 return 7
             }
-            break;
         case 'sunday':
             if (offset == true) {
                 return 7
             } else {
                 return 1
             }
-            break;
         default:
             return 'That\'s not a day of the week'
     }
